@@ -17,7 +17,6 @@ privados da Região Norte, em 34 colunas.
 |---|---|---|
 | 1º | `trabalho_aerodromo.sql` | **Script DDL** — criação das 13 tabelas, chaves, restrições e índices |
 | 2º | `carga_aerodromo.sql` | **Script de carga** — 3.004 linhas em 22 comandos `INSERT` |
-| — | `consultas_aerodromo.sql` | 15 consultas de estudo para a apresentação (não faz parte da carga) |
 | — | `anac_aerodromos_norte.csv` | Dados de origem, para rastreabilidade |
 
 ## Como executar
