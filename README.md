@@ -4,13 +4,6 @@ Banco de dados PostgreSQL normalizado até a 3ª Forma Normal, construído a par
 do arquivo `anac_aerodromos_norte.csv` — cadastro de 809 aeródromos públicos e
 privados da Região Norte, em 34 colunas.
 
-## Equipe
-
-- Pedro Andrade Gonçalves de Souza
-- Julia Labad Jatene
-- Luan Piedade de Oliveira
-- Jõao Paulo Oliveira Rodrigues
-
 ## Arquivos
 
 | Ordem | Arquivo | Conteúdo |
@@ -255,3 +248,10 @@ Nenhuma informação da planilha foi descartada.
 | `link_portaria_cadastro` | `aerodromo.link_portaria_cadastro` |
 | `restricao` | `restricao.descricao` via `aerodromo_restricao` |
 | `amazonia_legal` | `aerodromo.amazonia_legal` |
+
+## Equipe
+
+- Júlia Labad Jatene
+- Pedro Andrade Gonçalves de Souza
+- Luan Piedade de Oliveira
+- Jõao Paulo Oliveira Rodrigues
