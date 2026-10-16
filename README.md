@@ -6,7 +6,7 @@ Banco PostgreSQL normalizado até a **3ª Forma Normal (3FN)**, gerado exclusiva
 
 1. `trabalho_aerodromo.sql` — DDL: 13 tabelas, chaves, relacionamentos, `NOT NULL`, `UNIQUE`, `CHECK` e índices.
 2. `carga_aerodromo.sql` — **INSERTs SQL completos**, sem Python, `COPY` ou caminho local; carrega os 809 aeródromos e todas as tabelas, com verificação final.
-3. `anac_aerodromos_norte.csv` — arquivo original **inalterado** (SHA-256: `58de428cae1e988b2429f5289b505e271190489ff345764e2da414ac7e74490a`).
+3. `anac_aerodromos_norte.csv` — arquivo original **inalterado**.
 4. `README.md` — decisões, conferência e mapeamento das 34 colunas.
 
 ## Execução no pgAdmin (PostgreSQL)
