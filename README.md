@@ -112,6 +112,3 @@ ORDER BY quantidade DESC;
 - Luan Piedade de Oliveira
 - João Paulo Oliveira Rodrigues
 
-## Nota de verificação
-
-Os scripts foram conferidos programaticamente contra o CSV: contagens, chaves, vínculos, nulos, valores numéricos e reconstrução dos 34 atributos. A execução real no PostgreSQL deve ser confirmada no pgAdmin pela equipe, após rodar os dois scripts na ordem acima.
