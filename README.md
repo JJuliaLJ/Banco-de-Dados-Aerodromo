@@ -45,27 +45,6 @@ Crie um banco **vazio**, por exemplo `aerodromos_norte`. No Query Tool dele, exe
 | `aerodromo_categoria_operacao` | 13 |
 | `aerodromo_restricao` | 19 |
 
-## Exemplos de SELECT para a apresentação
-
-```sql
--- Aeródromos do Pará, em ordem de município e nome:
-SELECT a.nome, a.ciad, m.nome AS municipio, a.situacao
-FROM aerodromo AS a
-JOIN municipio AS m USING (municipio_id)
-WHERE m.estado_id = 'PA'
-ORDER BY m.nome, a.nome;
-
--- Aeródromos sem código OACI:
-SELECT nome, ciad FROM aerodromo
-WHERE codigo_oaci IS NULL
-ORDER BY nome;
-
--- Quantidade de aeródromos por situação:
-SELECT situacao, COUNT(*) AS quantidade
-FROM aerodromo GROUP BY situacao
-ORDER BY quantidade DESC;
-```
-
 ## Rastreamento das 34 colunas do CSV
 
 | Campo original | Destino no modelo |
