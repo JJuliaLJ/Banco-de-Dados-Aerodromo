@@ -86,8 +86,8 @@ Crie um banco **vazio**, por exemplo `aerodromos_norte`. No Query Tool dele, exe
 
 ## Equipe
 
-- Pedro Andrade Gonçalves de Souza
 - Júlia Labad Jatene
+- Pedro Andrade Gonçalves de Souza
 - Luan Piedade de Oliveira
 - João Paulo Oliveira Rodrigues
 
