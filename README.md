@@ -1,6 +1,6 @@
 # Aeródromos da Região Norte (ANAC) — Projeto final
 
-Banco PostgreSQL normalizado até a **3ª Forma Normal (3FN)**, gerado exclusivamente a partir do CSV fornecido para o trabalho. Mantive os nomes das quatro entregas na raiz do repositório original.
+Banco PostgreSQL normalizado até a **3ª Forma Normal (3FN)**, feito a partir do CSV fornecido para o trabalho.
 
 ## Arquivos
 
